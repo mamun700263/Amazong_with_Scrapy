@@ -1,0 +1,50 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Scrapy cache and logs
+.scrapy/
+logs/
+*.log
+
+# Output files (CSV, JSON, XML, etc.)
+*.csv
+*.json
+*.jl
+*.xml
+*.xlsx
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode & IDE settings
+.vscode/
+.idea/
+
+# Test & coverage files
+.coverage
+.tox/
+pytest_cache/
+
+# Dependency lock files (optional, based on use)
+Pipfile.lock
+poetry.lock
+
+# Auth/config (if any API keys or creds are stored)
+config.json
+secrets.json
+.env
+
+# Spider-specific output folders (if any)
+output/
+data/
+results/
